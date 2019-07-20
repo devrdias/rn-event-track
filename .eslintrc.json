@@ -35,6 +35,7 @@
     "import/no-extraneous-dependencies": "off",
     "max-len": "off",
     "react-native/no-inline-styles": "off"
+    // "quotes": [2, "single", "avoid-escape"]
   },
   "settings": {
     "import/resolver": {

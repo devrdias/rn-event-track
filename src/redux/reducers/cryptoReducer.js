@@ -1,13 +1,13 @@
 import {
   FETCH_COIN_DATA_LOADING,
   FETCH_COIN_DATA_SUCCESS,
-  FETCH_COIN_DATA_FAILURE,
-} from '../actions/cryptoActions';
+  FETCH_COIN_DATA_FAILURE
+} from "../actions/cryptoActions";
 
 const INITIAL_STATE = {
   coinData: [],
   coinDataErrorMessage: null,
-  coinDataIsLoading: false,
+  coinDataIsLoading: false
 };
 
 const reducer = (state = INITIAL_STATE, { type, coinData, errorMessage }) => {
@@ -16,7 +16,7 @@ const reducer = (state = INITIAL_STATE, { type, coinData, errorMessage }) => {
       return {
         ...state,
         coinDataIsLoading: true,
-        coinDataErrorMessage: '',
+        coinDataErrorMessage: ""
       };
 
     case FETCH_COIN_DATA_SUCCESS:
@@ -24,7 +24,7 @@ const reducer = (state = INITIAL_STATE, { type, coinData, errorMessage }) => {
         ...state,
         coinData: Object.keys(coinData).map(k => coinData[k]),
         coinDataIsLoading: false,
-        coinDataErrorMessage: null,
+        coinDataErrorMessage: null
       };
 
     case FETCH_COIN_DATA_FAILURE:
@@ -32,7 +32,7 @@ const reducer = (state = INITIAL_STATE, { type, coinData, errorMessage }) => {
         ...state,
         coinData: {},
         coinDataIsLoading: false,
-        coinDataErrorMessage: errorMessage,
+        coinDataErrorMessage: errorMessage
       };
     default:
       return state;
