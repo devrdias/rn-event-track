@@ -6,7 +6,7 @@
 	objectVersion = 46;
 	objects = {
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* RNEventsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNEventsTests.m */; };
+		00E356F31AD99517003FC87E /* EventTrackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* EventTrackTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -14,11 +14,11 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* RNEventsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNEventsTests.m */; };
-		41C383BE54FC5F9EF86460FE /* libPods-RNEvents.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FEAF814F629F70704FD9C4 /* libPods-RNEvents.a */; };
-		73190D87F2A317D37A3B415F /* libPods-RNEvents-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E269D93FA2101C533F8FB3 /* libPods-RNEvents-tvOS.a */; };
-		F020849B3D1050FE9FC8741A /* libPods-RNEvents-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 054AF526DCAD223054A86BE7 /* libPods-RNEvents-tvOSTests.a */; };
-		F77916EE415E15733D8CC74B /* libPods-RNEventsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D35615F29267AD63CDAB6896 /* libPods-RNEventsTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* EventTrackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* EventTrackTests.m */; };
+		41C383BE54FC5F9EF86460FE /* libPods-EventTrack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FEAF814F629F70704FD9C4 /* libPods-EventTrack.a */; };
+		73190D87F2A317D37A3B415F /* libPods-EventTrack-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E269D93FA2101C533F8FB3 /* libPods-EventTrack-tvOS.a */; };
+		F020849B3D1050FE9FC8741A /* libPods-EventTrack-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 054AF526DCAD223054A86BE7 /* libPods-EventTrack-tvOSTests.a */; };
+		F77916EE415E15733D8CC74B /* libPods-EventTrackTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D35615F29267AD63CDAB6896 /* libPods-EventTrackTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,43 +27,43 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = RNEvents;
+			remoteInfo = EventTrack;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "RNEvents-tvOS";
+			remoteInfo = "EventTrack-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* RNEventsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNEventsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* EventTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* RNEventsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNEventsTests.m; sourceTree = "<group>"; };
-		054AF526DCAD223054A86BE7 /* libPods-RNEvents-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNEvents-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		056B9327B21593CACA757C05 /* Pods-RNEventsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNEventsTests.debug.xcconfig"; path = "Target Support Files/Pods-RNEventsTests/Pods-RNEventsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* RNEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RNEvents/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RNEvents/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* EventTrackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventTrackTests.m; sourceTree = "<group>"; };
+		054AF526DCAD223054A86BE7 /* libPods-EventTrack-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EventTrack-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		056B9327B21593CACA757C05 /* Pods-EventTrackTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventTrackTests.debug.xcconfig"; path = "Target Support Files/Pods-EventTrackTests/Pods-EventTrackTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* EventTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = EventTrack/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = EventTrack/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNEvents/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNEvents/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNEvents/main.m; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* RNEvents-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RNEvents-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* RNEvents-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RNEvents-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		478C352A19585C40430F9AF9 /* Pods-RNEvents-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNEvents-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-RNEvents-tvOSTests/Pods-RNEvents-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4B700A80779A6513DB6149A5 /* Pods-RNEvents-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNEvents-tvOS.release.xcconfig"; path = "Target Support Files/Pods-RNEvents-tvOS/Pods-RNEvents-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		68E269D93FA2101C533F8FB3 /* libPods-RNEvents-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNEvents-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8AA55F83F4D5FF5020CC6E1B /* Pods-RNEvents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNEvents.debug.xcconfig"; path = "Target Support Files/Pods-RNEvents/Pods-RNEvents.debug.xcconfig"; sourceTree = "<group>"; };
-		930ACBCD6B6059B0E9BF064E /* Pods-RNEvents-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNEvents-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-RNEvents-tvOS/Pods-RNEvents-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		A81C6F2CA0572393C68CE67E /* Pods-RNEventsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNEventsTests.release.xcconfig"; path = "Target Support Files/Pods-RNEventsTests/Pods-RNEventsTests.release.xcconfig"; sourceTree = "<group>"; };
-		B3FEAF814F629F70704FD9C4 /* libPods-RNEvents.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNEvents.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C885A1E0F52062079F72D016 /* Pods-RNEvents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNEvents.release.xcconfig"; path = "Target Support Files/Pods-RNEvents/Pods-RNEvents.release.xcconfig"; sourceTree = "<group>"; };
-		D35615F29267AD63CDAB6896 /* libPods-RNEventsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNEventsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D95829CE384E9DBF7DC94F2A /* Pods-RNEvents-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNEvents-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-RNEvents-tvOSTests/Pods-RNEvents-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = EventTrack/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = EventTrack/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = EventTrack/main.m; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* EventTrack-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EventTrack-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* EventTrack-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EventTrack-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		478C352A19585C40430F9AF9 /* Pods-EventTrack-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventTrack-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-EventTrack-tvOSTests/Pods-EventTrack-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B700A80779A6513DB6149A5 /* Pods-EventTrack-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventTrack-tvOS.release.xcconfig"; path = "Target Support Files/Pods-EventTrack-tvOS/Pods-EventTrack-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		68E269D93FA2101C533F8FB3 /* libPods-EventTrack-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EventTrack-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AA55F83F4D5FF5020CC6E1B /* Pods-EventTrack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventTrack.debug.xcconfig"; path = "Target Support Files/Pods-EventTrack/Pods-EventTrack.debug.xcconfig"; sourceTree = "<group>"; };
+		930ACBCD6B6059B0E9BF064E /* Pods-EventTrack-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventTrack-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-EventTrack-tvOS/Pods-EventTrack-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A81C6F2CA0572393C68CE67E /* Pods-EventTrackTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventTrackTests.release.xcconfig"; path = "Target Support Files/Pods-EventTrackTests/Pods-EventTrackTests.release.xcconfig"; sourceTree = "<group>"; };
+		B3FEAF814F629F70704FD9C4 /* libPods-EventTrack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EventTrack.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C885A1E0F52062079F72D016 /* Pods-EventTrack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventTrack.release.xcconfig"; path = "Target Support Files/Pods-EventTrack/Pods-EventTrack.release.xcconfig"; sourceTree = "<group>"; };
+		D35615F29267AD63CDAB6896 /* libPods-EventTrackTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EventTrackTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D95829CE384E9DBF7DC94F2A /* Pods-EventTrack-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventTrack-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-EventTrack-tvOSTests/Pods-EventTrack-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -73,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F77916EE415E15733D8CC74B /* libPods-RNEventsTests.a in Frameworks */,
+				F77916EE415E15733D8CC74B /* libPods-EventTrackTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41C383BE54FC5F9EF86460FE /* libPods-RNEvents.a in Frameworks */,
+				41C383BE54FC5F9EF86460FE /* libPods-EventTrack.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73190D87F2A317D37A3B415F /* libPods-RNEvents-tvOS.a in Frameworks */,
+				73190D87F2A317D37A3B415F /* libPods-EventTrack-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,20 +97,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F020849B3D1050FE9FC8741A /* libPods-RNEvents-tvOSTests.a in Frameworks */,
+				F020849B3D1050FE9FC8741A /* libPods-EventTrack-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* RNEventsTests */ = {
+		00E356EF1AD99517003FC87E /* EventTrackTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* RNEventsTests.m */,
+				00E356F21AD99517003FC87E /* EventTrackTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = RNEventsTests;
+			path = EventTrackTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -121,7 +121,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* RNEvents */ = {
+		13B07FAE1A68108700A75B9A /* EventTrack */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -132,7 +132,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = RNEvents;
+			name = EventTrack;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -140,10 +140,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				B3FEAF814F629F70704FD9C4 /* libPods-RNEvents.a */,
-				68E269D93FA2101C533F8FB3 /* libPods-RNEvents-tvOS.a */,
-				054AF526DCAD223054A86BE7 /* libPods-RNEvents-tvOSTests.a */,
-				D35615F29267AD63CDAB6896 /* libPods-RNEventsTests.a */,
+				B3FEAF814F629F70704FD9C4 /* libPods-EventTrack.a */,
+				68E269D93FA2101C533F8FB3 /* libPods-EventTrack-tvOS.a */,
+				054AF526DCAD223054A86BE7 /* libPods-EventTrack-tvOSTests.a */,
+				D35615F29267AD63CDAB6896 /* libPods-EventTrackTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -151,14 +151,14 @@
 		58251D24200228FDF661C5CE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8AA55F83F4D5FF5020CC6E1B /* Pods-RNEvents.debug.xcconfig */,
-				C885A1E0F52062079F72D016 /* Pods-RNEvents.release.xcconfig */,
-				930ACBCD6B6059B0E9BF064E /* Pods-RNEvents-tvOS.debug.xcconfig */,
-				4B700A80779A6513DB6149A5 /* Pods-RNEvents-tvOS.release.xcconfig */,
-				478C352A19585C40430F9AF9 /* Pods-RNEvents-tvOSTests.debug.xcconfig */,
-				D95829CE384E9DBF7DC94F2A /* Pods-RNEvents-tvOSTests.release.xcconfig */,
-				056B9327B21593CACA757C05 /* Pods-RNEventsTests.debug.xcconfig */,
-				A81C6F2CA0572393C68CE67E /* Pods-RNEventsTests.release.xcconfig */,
+				8AA55F83F4D5FF5020CC6E1B /* Pods-EventTrack.debug.xcconfig */,
+				C885A1E0F52062079F72D016 /* Pods-EventTrack.release.xcconfig */,
+				930ACBCD6B6059B0E9BF064E /* Pods-EventTrack-tvOS.debug.xcconfig */,
+				4B700A80779A6513DB6149A5 /* Pods-EventTrack-tvOS.release.xcconfig */,
+				478C352A19585C40430F9AF9 /* Pods-EventTrack-tvOSTests.debug.xcconfig */,
+				D95829CE384E9DBF7DC94F2A /* Pods-EventTrack-tvOSTests.release.xcconfig */,
+				056B9327B21593CACA757C05 /* Pods-EventTrackTests.debug.xcconfig */,
+				A81C6F2CA0572393C68CE67E /* Pods-EventTrackTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -182,9 +182,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* RNEvents */,
+				13B07FAE1A68108700A75B9A /* EventTrack */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* RNEventsTests */,
+				00E356EF1AD99517003FC87E /* EventTrackTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				58251D24200228FDF661C5CE /* Pods */,
@@ -198,10 +198,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* RNEvents.app */,
-				00E356EE1AD99517003FC87E /* RNEventsTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* RNEvents-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* RNEvents-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* EventTrack.app */,
+				00E356EE1AD99517003FC87E /* EventTrackTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* EventTrack-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* EventTrack-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -209,9 +209,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* RNEventsTests */ = {
+		00E356ED1AD99517003FC87E /* EventTrackTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RNEventsTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "EventTrackTests" */;
 			buildPhases = (
 				F8F70F6277B950E35437492E /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -223,14 +223,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = RNEventsTests;
-			productName = RNEventsTests;
-			productReference = 00E356EE1AD99517003FC87E /* RNEventsTests.xctest */;
+			name = EventTrackTests;
+			productName = EventTrackTests;
+			productReference = 00E356EE1AD99517003FC87E /* EventTrackTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* RNEvents */ = {
+		13B07F861A680F5B00A75B9A /* EventTrack */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RNEvents" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "EventTrack" */;
 			buildPhases = (
 				A98B6293ED86D01D181D32EB /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -244,14 +244,14 @@
 			);
 			dependencies = (
 			);
-			name = RNEvents;
-			productName = RNEvents;
-			productReference = 13B07F961A680F5B00A75B9A /* RNEvents.app */;
+			name = EventTrack;
+			productName = EventTrack;
+			productReference = 13B07F961A680F5B00A75B9A /* EventTrack.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* RNEvents-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* EventTrack-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RNEvents-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "EventTrack-tvOS" */;
 			buildPhases = (
 				28889AB0CE0F356352F79ADE /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -264,14 +264,14 @@
 			);
 			dependencies = (
 			);
-			name = "RNEvents-tvOS";
-			productName = "RNEvents-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* RNEvents-tvOS.app */;
+			name = "EventTrack-tvOS";
+			productName = "EventTrack-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* EventTrack-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* RNEvents-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* EventTrack-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RNEvents-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "EventTrack-tvOSTests" */;
 			buildPhases = (
 				DB11FB3F947C531A4577A8D9 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -283,9 +283,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "RNEvents-tvOSTests";
-			productName = "RNEvents-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* RNEvents-tvOSTests.xctest */;
+			name = "EventTrack-tvOSTests";
+			productName = "EventTrack-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* EventTrack-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -312,7 +312,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RNEvents" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "EventTrack" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -325,10 +325,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* RNEvents */,
-				00E356ED1AD99517003FC87E /* RNEventsTests */,
-				2D02E47A1E0B4A5D006451C7 /* RNEvents-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* RNEvents-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* EventTrack */,
+				00E356ED1AD99517003FC87E /* EventTrackTests */,
+				2D02E47A1E0B4A5D006451C7 /* EventTrack-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* EventTrack-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -397,7 +397,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RNEvents-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-EventTrack-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -433,7 +433,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RNEvents-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-EventTrack-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -455,7 +455,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RNEvents-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-EventTrack-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -468,7 +468,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNEvents/Pods-RNEvents-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-EventTrack/Pods-EventTrack-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -507,7 +507,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNEvents/Pods-RNEvents-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EventTrack/Pods-EventTrack-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F8F70F6277B950E35437492E /* [CP] Check Pods Manifest.lock */ = {
@@ -525,7 +525,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RNEventsTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-EventTrackTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -577,7 +577,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* RNEventsTests.m in Sources */,
+				00E356F31AD99517003FC87E /* EventTrackTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -603,7 +603,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* RNEventsTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* EventTrackTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -612,12 +612,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* RNEvents */;
+			target = 13B07F861A680F5B00A75B9A /* EventTrack */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* RNEvents-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* EventTrack-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -629,7 +629,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = RNEvents;
+			path = EventTrack;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -637,14 +637,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 056B9327B21593CACA757C05 /* Pods-RNEventsTests.debug.xcconfig */;
+			baseConfigurationReference = 056B9327B21593CACA757C05 /* Pods-EventTrackTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = RNEventsTests/Info.plist;
+				INFOPLIST_FILE = EventTrackTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -654,17 +654,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNEvents.app/RNEvents";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EventTrack.app/EventTrack";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A81C6F2CA0572393C68CE67E /* Pods-RNEventsTests.release.xcconfig */;
+			baseConfigurationReference = A81C6F2CA0572393C68CE67E /* Pods-EventTrackTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = RNEventsTests/Info.plist;
+				INFOPLIST_FILE = EventTrackTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -674,18 +674,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNEvents.app/RNEvents";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EventTrack.app/EventTrack";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AA55F83F4D5FF5020CC6E1B /* Pods-RNEvents.debug.xcconfig */;
+			baseConfigurationReference = 8AA55F83F4D5FF5020CC6E1B /* Pods-EventTrack.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = RNEvents/Info.plist;
+				INFOPLIST_FILE = EventTrack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -693,18 +693,18 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = RNEvents;
+				PRODUCT_NAME = EventTrack;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C885A1E0F52062079F72D016 /* Pods-RNEvents.release.xcconfig */;
+			baseConfigurationReference = C885A1E0F52062079F72D016 /* Pods-EventTrack.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = RNEvents/Info.plist;
+				INFOPLIST_FILE = EventTrack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -712,14 +712,14 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = RNEvents;
+				PRODUCT_NAME = EventTrack;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 930ACBCD6B6059B0E9BF064E /* Pods-RNEvents-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 930ACBCD6B6059B0E9BF064E /* Pods-EventTrack-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -730,14 +730,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "RNEvents-tvOS/Info.plist";
+				INFOPLIST_FILE = "EventTrack-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.RNEvents-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.EventTrack-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -747,7 +747,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B700A80779A6513DB6149A5 /* Pods-RNEvents-tvOS.release.xcconfig */;
+			baseConfigurationReference = 4B700A80779A6513DB6149A5 /* Pods-EventTrack-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -758,14 +758,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "RNEvents-tvOS/Info.plist";
+				INFOPLIST_FILE = "EventTrack-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.RNEvents-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.EventTrack-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -775,7 +775,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 478C352A19585C40430F9AF9 /* Pods-RNEvents-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 478C352A19585C40430F9AF9 /* Pods-EventTrack-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -785,24 +785,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "RNEvents-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "EventTrack-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.RNEvents-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.EventTrack-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNEvents-tvOS.app/RNEvents-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EventTrack-tvOS.app/EventTrack-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D95829CE384E9DBF7DC94F2A /* Pods-RNEvents-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = D95829CE384E9DBF7DC94F2A /* Pods-EventTrack-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -812,17 +812,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "RNEvents-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "EventTrack-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.RNEvents-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.EventTrack-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNEvents-tvOS.app/RNEvents-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EventTrack-tvOS.app/EventTrack-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -929,7 +929,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RNEventsTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "EventTrackTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -938,7 +938,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RNEvents" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "EventTrack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -947,7 +947,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RNEvents-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "EventTrack-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -956,7 +956,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RNEvents-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "EventTrack-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -965,7 +965,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RNEvents" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "EventTrack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

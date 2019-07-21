@@ -1,4 +1,4 @@
-package com.devrdias.events;
+package com.devrdias.eventtrack;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
@@ -13,7 +13,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "RNEvents";
+    return "EventTrack";
   }
 
   @Override

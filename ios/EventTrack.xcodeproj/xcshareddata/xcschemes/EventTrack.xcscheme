@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "RNEvents.app"
-               BlueprintName = "RNEvents"
-               ReferencedContainer = "container:RNEvents.xcodeproj">
+               BuildableName = "EventTrack.app"
+               BlueprintName = "EventTrack"
+               ReferencedContainer = "container:EventTrack.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "RNEventsTests.xctest"
-               BlueprintName = "RNEventsTests"
-               ReferencedContainer = "container:RNEvents.xcodeproj">
+               BuildableName = "EventTrackTests.xctest"
+               BlueprintName = "EventTrackTests"
+               ReferencedContainer = "container:EventTrack.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "RNEventsTests.xctest"
-               BlueprintName = "RNEventsTests"
-               ReferencedContainer = "container:RNEvents.xcodeproj">
+               BuildableName = "EventTrackTests.xctest"
+               BlueprintName = "EventTrackTests"
+               ReferencedContainer = "container:EventTrack.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "RNEvents.app"
-            BlueprintName = "RNEvents"
-            ReferencedContainer = "container:RNEvents.xcodeproj">
+            BuildableName = "EventTrack.app"
+            BlueprintName = "EventTrack"
+            ReferencedContainer = "container:EventTrack.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "RNEvents.app"
-            BlueprintName = "RNEvents"
-            ReferencedContainer = "container:RNEvents.xcodeproj">
+            BuildableName = "EventTrack.app"
+            BlueprintName = "EventTrack"
+            ReferencedContainer = "container:EventTrack.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "RNEvents.app"
-            BlueprintName = "RNEvents"
-            ReferencedContainer = "container:RNEvents.xcodeproj">
+            BuildableName = "EventTrack.app"
+            BlueprintName = "EventTrack"
+            ReferencedContainer = "container:EventTrack.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

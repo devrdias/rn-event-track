@@ -1,4 +1,4 @@
-package com.devrdias.events;
+package com.devrdias.eventtrack;
 
 import android.app.Application;
 

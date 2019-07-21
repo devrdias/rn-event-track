@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'RNEvents' do
-  # Pods for RNEvents
+target 'EventTrack' do
+  # Pods for EventTrack
   pod 'React', :path => '../node_modules/react-native/'
   pod 'React-Core', :path => '../node_modules/react-native/React'
   pod 'React-DevSupport', :path => '../node_modules/react-native/React'
@@ -31,7 +31,7 @@ target 'RNEvents' do
 
 
 
-  target 'RNEventsTests' do
+  target 'EventTrackTests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -39,10 +39,10 @@ target 'RNEvents' do
   use_native_modules!
 end
 
-target 'RNEvents-tvOS' do
-  # Pods for RNEvents-tvOS
+target 'EventTrack-tvOS' do
+  # Pods for EventTrack-tvOS
 
-  target 'RNEvents-tvOSTests' do
+  target 'EventTrack-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

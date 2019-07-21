@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "RNEvents-tvOS.app"
-               BlueprintName = "RNEvents-tvOS"
-               ReferencedContainer = "container:RNEvents.xcodeproj">
+               BuildableName = "EventTrack-tvOS.app"
+               BlueprintName = "EventTrack-tvOS"
+               ReferencedContainer = "container:EventTrack.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "RNEvents-tvOSTests.xctest"
-               BlueprintName = "RNEvents-tvOSTests"
-               ReferencedContainer = "container:RNEvents.xcodeproj">
+               BuildableName = "EventTrack-tvOSTests.xctest"
+               BlueprintName = "EventTrack-tvOSTests"
+               ReferencedContainer = "container:EventTrack.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "RNEvents-tvOSTests.xctest"
-               BlueprintName = "RNEvents-tvOSTests"
-               ReferencedContainer = "container:RNEvents.xcodeproj">
+               BuildableName = "EventTrack-tvOSTests.xctest"
+               BlueprintName = "EventTrack-tvOSTests"
+               ReferencedContainer = "container:EventTrack.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "RNEvents-tvOS.app"
-            BlueprintName = "RNEvents-tvOS"
-            ReferencedContainer = "container:RNEvents.xcodeproj">
+            BuildableName = "EventTrack-tvOS.app"
+            BlueprintName = "EventTrack-tvOS"
+            ReferencedContainer = "container:EventTrack.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "RNEvents-tvOS.app"
-            BlueprintName = "RNEvents-tvOS"
-            ReferencedContainer = "container:RNEvents.xcodeproj">
+            BuildableName = "EventTrack-tvOS.app"
+            BlueprintName = "EventTrack-tvOS"
+            ReferencedContainer = "container:EventTrack.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "RNEvents-tvOS.app"
-            BlueprintName = "RNEvents-tvOS"
-            ReferencedContainer = "container:RNEvents.xcodeproj">
+            BuildableName = "EventTrack-tvOS.app"
+            BlueprintName = "EventTrack-tvOS"
+            ReferencedContainer = "container:EventTrack.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
